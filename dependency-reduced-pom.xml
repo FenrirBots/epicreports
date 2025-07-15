@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>teik.ers</groupId>
-  <artifactId>EpicReport</artifactId>
-  <version>4.0.0</version>
+  <artifactId>EpicReports</artifactId>
+  <version>4.0.2</version>
   <build>
     <plugins>
       <plugin>
@@ -80,9 +80,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.Teikx</groupId>
-      <artifactId>ersDiscord</artifactId>
-      <version>1.0.0</version>
+      <groupId>teik.ers</groupId>
+      <artifactId>EpicReports-Discord</artifactId>
+      <version>1.0.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -100,7 +100,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>8</maven.compiler.target>
     <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
   </properties>
 </project>
