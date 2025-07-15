@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>teik.ers</groupId>
-    <artifactId>EpicReport</artifactId>
+    <artifactId>EpicReports</artifactId>
     <version>4.0.1</version>
 
     <properties>
